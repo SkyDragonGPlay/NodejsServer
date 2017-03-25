@@ -1,0 +1,909 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'multer' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of D:\Nodejs\Projects\NodeTest\package.json
+5 verbose installManyTop reading scoped package data from D:\Nodejs\Projects\NodeTest\node_modules\body-parser\package.json
+6 verbose installManyTop reading scoped package data from D:\Nodejs\Projects\NodeTest\node_modules\cookie-parser\package.json
+7 verbose installManyTop reading scoped package data from D:\Nodejs\Projects\NodeTest\node_modules\debug\package.json
+8 verbose installManyTop reading scoped package data from D:\Nodejs\Projects\NodeTest\node_modules\express\package.json
+9 verbose installManyTop reading scoped package data from D:\Nodejs\Projects\NodeTest\node_modules\jade\package.json
+10 verbose installManyTop reading scoped package data from D:\Nodejs\Projects\NodeTest\node_modules\morgan\package.json
+11 verbose installManyTop reading scoped package data from D:\Nodejs\Projects\NodeTest\node_modules\serve-favicon\package.json
+12 verbose readDependencies loading dependencies from D:\Nodejs\Projects\NodeTest\package.json
+13 silly cache add args [ 'multer', null ]
+14 verbose cache add spec multer
+15 silly cache add parsed spec Result {
+15 silly cache add   raw: 'multer',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'multer',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: 'latest',
+15 silly cache add   type: 'tag' }
+16 silly addNamed multer@latest
+17 verbose addNamed "latest" is being treated as a dist-tag for multer
+18 info addNameTag [ 'multer', 'latest' ]
+19 silly mapToRegistry name multer
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry data Result {
+22 silly mapToRegistry   raw: 'multer',
+22 silly mapToRegistry   scope: null,
+22 silly mapToRegistry   name: 'multer',
+22 silly mapToRegistry   rawSpec: '',
+22 silly mapToRegistry   spec: 'latest',
+22 silly mapToRegistry   type: 'tag' }
+23 silly mapToRegistry uri https://registry.npmjs.org/multer
+24 verbose addNameTag registry:https://registry.npmjs.org/multer not in flight; fetching
+25 verbose request uri https://registry.npmjs.org/multer
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 21:21:15
+28 verbose request id 5df4d75e4cd61edc
+29 verbose etag "BE9E8502JTVLDHHV24A9FPAOC"
+30 http request GET https://registry.npmjs.org/multer
+31 http 304 https://registry.npmjs.org/multer
+32 verbose headers { date: 'Sun, 18 Sep 2016 13:21:18 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   etag: '"BE9E8502JTVLDHHV24A9FPAOC"',
+32 verbose headers   age: '216',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-lcy1123-LCY',
+32 verbose headers   'x-cache': 'HIT',
+32 verbose headers   'x-cache-hits': '1',
+32 verbose headers   'x-timer': 'S1474204878.719502,VS0,VE0',
+32 verbose headers   vary: 'Accept-Encoding' }
+33 silly get cb [ 304,
+33 silly get   { date: 'Sun, 18 Sep 2016 13:21:18 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     'cache-control': 'max-age=300',
+33 silly get     etag: '"BE9E8502JTVLDHHV24A9FPAOC"',
+33 silly get     age: '216',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-lcy1123-LCY',
+33 silly get     'x-cache': 'HIT',
+33 silly get     'x-cache-hits': '1',
+33 silly get     'x-timer': 'S1474204878.719502,VS0,VE0',
+33 silly get     vary: 'Accept-Encoding' } ]
+34 verbose etag https://registry.npmjs.org/multer from cache
+35 verbose get saving multer to C:\Users\zzl\AppData\Roaming\npm-cache\registry.npmjs.org\multer\.cache.json
+36 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+37 silly addNameTag next cb for multer with tag latest
+38 silly addNamed multer@1.2.0
+39 verbose addNamed "1.2.0" is a plain semver version for multer
+40 silly cache afterAdd multer@1.2.0
+41 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\multer\1.2.0\package\package.json not in flight; writing
+42 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+43 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\multer\1.2.0\package\package.json written
+44 silly install resolved [ { name: 'multer',
+44 silly install resolved     description: 'Middleware for handling `multipart/form-data`.',
+44 silly install resolved     version: '1.2.0',
+44 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+44 silly install resolved     license: 'MIT',
+44 silly install resolved     repository:
+44 silly install resolved      { type: 'git',
+44 silly install resolved        url: 'git+https://github.com/expressjs/multer.git' },
+44 silly install resolved     keywords:
+44 silly install resolved      [ 'form',
+44 silly install resolved        'post',
+44 silly install resolved        'multipart',
+44 silly install resolved        'form-data',
+44 silly install resolved        'formdata',
+44 silly install resolved        'express',
+44 silly install resolved        'middleware' ],
+44 silly install resolved     dependencies:
+44 silly install resolved      { 'append-field': '^0.1.0',
+44 silly install resolved        busboy: '^0.2.11',
+44 silly install resolved        'concat-stream': '^1.5.0',
+44 silly install resolved        mkdirp: '^0.5.1',
+44 silly install resolved        'object-assign': '^3.0.0',
+44 silly install resolved        'on-finished': '^2.3.0',
+44 silly install resolved        'type-is': '^1.6.4',
+44 silly install resolved        xtend: '^4.0.0' },
+44 silly install resolved     devDependencies:
+44 silly install resolved      { express: '^4.13.1',
+44 silly install resolved        'form-data': '^1.0.0-rc1',
+44 silly install resolved        'fs-temp': '^0.1.2',
+44 silly install resolved        mocha: '^2.2.5',
+44 silly install resolved        rimraf: '^2.4.1',
+44 silly install resolved        standard: '^4.5.4',
+44 silly install resolved        'testdata-w3c-json-form': '^0.2.0' },
+44 silly install resolved     engines: { node: '>= 0.10.0' },
+44 silly install resolved     files: [ 'LICENSE', 'index.js', 'storage/', 'lib/' ],
+44 silly install resolved     scripts: { test: 'standard && mocha' },
+44 silly install resolved     gitHead: 'eef091188d3f2c40d0da145d75114434b2b3f840',
+44 silly install resolved     bugs: { url: 'https://github.com/expressjs/multer/issues' },
+44 silly install resolved     homepage: 'https://github.com/expressjs/multer#readme',
+44 silly install resolved     _id: 'multer@1.2.0',
+44 silly install resolved     _shasum: '5be1a45259fb04d2753d33c7c2a1caf5224705a2',
+44 silly install resolved     _from: 'multer@latest',
+44 silly install resolved     _npmVersion: '3.10.5',
+44 silly install resolved     _nodeVersion: '6.3.0',
+44 silly install resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
+44 silly install resolved     dist:
+44 silly install resolved      { shasum: '5be1a45259fb04d2753d33c7c2a1caf5224705a2',
+44 silly install resolved        tarball: 'https://registry.npmjs.org/multer/-/multer-1.2.0.tgz' },
+44 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+44 silly install resolved     _npmOperationalInternal:
+44 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+44 silly install resolved        tmp: 'tmp/multer-1.2.0.tgz_1470313520894_0.5186171964742243' },
+44 silly install resolved     directories: {},
+44 silly install resolved     _resolved: 'https://registry.npmjs.org/multer/-/multer-1.2.0.tgz',
+44 silly install resolved     readme: 'ERROR: No README data found!' } ]
+45 info install multer@1.2.0 into D:\Nodejs\Projects\NodeTest
+46 info installOne multer@1.2.0
+47 verbose installOne of multer to D:\Nodejs\Projects\NodeTest not in flight; installing
+48 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+49 verbose lock using C:\Users\zzl\AppData\Roaming\npm-cache\_locks\multer-de914dce9ff2f8b0.lock for D:\Nodejs\Projects\NodeTest\node_modules\multer
+50 silly install write writing multer 1.2.0 to D:\Nodejs\Projects\NodeTest\node_modules\multer
+51 verbose unbuild node_modules\multer
+52 silly gentlyRm D:\Nodejs\Projects\NodeTest\node_modules\multer is being purged from base D:\Nodejs\Projects\NodeTest
+53 verbose gentlyRm don't care about contents; nuking D:\Nodejs\Projects\NodeTest\node_modules\multer
+54 verbose tar unpack C:\Users\zzl\AppData\Roaming\npm-cache\multer\1.2.0\package.tgz
+55 verbose tar unpacking to D:\Nodejs\Projects\NodeTest\node_modules\multer
+56 silly gentlyRm D:\Nodejs\Projects\NodeTest\node_modules\multer is being purged
+57 verbose gentlyRm don't care about contents; nuking D:\Nodejs\Projects\NodeTest\node_modules\multer
+58 silly gunzTarPerm modes [ '777', '666' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+63 silly gunzTarPerm extractEntry LICENSE
+64 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+65 silly gunzTarPerm extractEntry index.js
+66 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+67 silly gunzTarPerm extractEntry CHANGELOG.md
+68 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+69 silly gunzTarPerm extractEntry lib/counter.js
+70 silly gunzTarPerm modified mode [ 'lib/counter.js', 420, 438 ]
+71 silly gunzTarPerm extractEntry lib/file-appender.js
+72 silly gunzTarPerm modified mode [ 'lib/file-appender.js', 420, 438 ]
+73 silly gunzTarPerm extractEntry lib/make-error.js
+74 silly gunzTarPerm modified mode [ 'lib/make-error.js', 420, 438 ]
+75 silly gunzTarPerm extractEntry lib/make-middleware.js
+76 silly gunzTarPerm modified mode [ 'lib/make-middleware.js', 420, 438 ]
+77 silly gunzTarPerm extractEntry lib/remove-uploaded-files.js
+78 silly gunzTarPerm modified mode [ 'lib/remove-uploaded-files.js', 420, 438 ]
+79 silly gunzTarPerm extractEntry storage/disk.js
+80 silly gunzTarPerm modified mode [ 'storage/disk.js', 420, 438 ]
+81 silly gunzTarPerm extractEntry storage/memory.js
+82 silly gunzTarPerm modified mode [ 'storage/memory.js', 420, 438 ]
+83 verbose write writing to D:\Nodejs\Projects\NodeTest\node_modules\multer\package.json
+84 info preinstall multer@1.2.0
+85 verbose readDependencies loading dependencies from D:\Nodejs\Projects\NodeTest\node_modules\multer\package.json
+86 silly prepareForInstallMany adding append-field@^0.1.0 from multer dependencies
+87 silly prepareForInstallMany adding busboy@^0.2.11 from multer dependencies
+88 silly prepareForInstallMany adding concat-stream@^1.5.0 from multer dependencies
+89 silly prepareForInstallMany adding mkdirp@^0.5.1 from multer dependencies
+90 silly prepareForInstallMany adding object-assign@^3.0.0 from multer dependencies
+91 silly prepareForInstallMany adding on-finished@^2.3.0 from multer dependencies
+92 silly prepareForInstallMany adding type-is@^1.6.4 from multer dependencies
+93 silly prepareForInstallMany adding xtend@^4.0.0 from multer dependencies
+94 verbose readDependencies loading dependencies from D:\Nodejs\Projects\NodeTest\node_modules\multer\package.json
+95 silly cache add args [ 'append-field@^0.1.0', null ]
+96 verbose cache add spec append-field@^0.1.0
+97 silly cache add args [ 'busboy@^0.2.11', null ]
+98 verbose cache add spec busboy@^0.2.11
+99 silly cache add parsed spec Result {
+99 silly cache add   raw: 'append-field@^0.1.0',
+99 silly cache add   scope: null,
+99 silly cache add   name: 'append-field',
+99 silly cache add   rawSpec: '^0.1.0',
+99 silly cache add   spec: '>=0.1.0 <0.2.0',
+99 silly cache add   type: 'range' }
+100 silly addNamed append-field@>=0.1.0 <0.2.0
+101 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for append-field
+102 silly addNameRange { name: 'append-field', range: '>=0.1.0 <0.2.0', hasData: false }
+103 silly mapToRegistry name append-field
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'append-field',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   name: 'append-field',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri https://registry.npmjs.org/append-field
+108 verbose addNameRange registry:https://registry.npmjs.org/append-field not in flight; fetching
+109 silly cache add parsed spec Result {
+109 silly cache add   raw: 'busboy@^0.2.11',
+109 silly cache add   scope: null,
+109 silly cache add   name: 'busboy',
+109 silly cache add   rawSpec: '^0.2.11',
+109 silly cache add   spec: '>=0.2.11 <0.3.0',
+109 silly cache add   type: 'range' }
+110 silly addNamed busboy@>=0.2.11 <0.3.0
+111 verbose addNamed ">=0.2.11 <0.3.0" is a valid semver range for busboy
+112 silly addNameRange { name: 'busboy', range: '>=0.2.11 <0.3.0', hasData: false }
+113 silly mapToRegistry name busboy
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry data Result {
+116 silly mapToRegistry   raw: 'busboy',
+116 silly mapToRegistry   scope: null,
+116 silly mapToRegistry   name: 'busboy',
+116 silly mapToRegistry   rawSpec: '',
+116 silly mapToRegistry   spec: 'latest',
+116 silly mapToRegistry   type: 'tag' }
+117 silly mapToRegistry uri https://registry.npmjs.org/busboy
+118 verbose addNameRange registry:https://registry.npmjs.org/busboy not in flight; fetching
+119 silly cache add args [ 'concat-stream@^1.5.0', null ]
+120 verbose cache add spec concat-stream@^1.5.0
+121 silly cache add parsed spec Result {
+121 silly cache add   raw: 'concat-stream@^1.5.0',
+121 silly cache add   scope: null,
+121 silly cache add   name: 'concat-stream',
+121 silly cache add   rawSpec: '^1.5.0',
+121 silly cache add   spec: '>=1.5.0 <2.0.0',
+121 silly cache add   type: 'range' }
+122 silly addNamed concat-stream@>=1.5.0 <2.0.0
+123 verbose addNamed ">=1.5.0 <2.0.0" is a valid semver range for concat-stream
+124 silly addNameRange { name: 'concat-stream',
+124 silly addNameRange   range: '>=1.5.0 <2.0.0',
+124 silly addNameRange   hasData: false }
+125 silly mapToRegistry name concat-stream
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: 'concat-stream',
+128 silly mapToRegistry   scope: null,
+128 silly mapToRegistry   name: 'concat-stream',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri https://registry.npmjs.org/concat-stream
+130 verbose addNameRange registry:https://registry.npmjs.org/concat-stream not in flight; fetching
+131 silly cache add args [ 'mkdirp@^0.5.1', null ]
+132 verbose cache add spec mkdirp@^0.5.1
+133 silly cache add parsed spec Result {
+133 silly cache add   raw: 'mkdirp@^0.5.1',
+133 silly cache add   scope: null,
+133 silly cache add   name: 'mkdirp',
+133 silly cache add   rawSpec: '^0.5.1',
+133 silly cache add   spec: '>=0.5.1 <0.6.0',
+133 silly cache add   type: 'range' }
+134 silly addNamed mkdirp@>=0.5.1 <0.6.0
+135 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for mkdirp
+136 silly addNameRange { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: false }
+137 silly mapToRegistry name mkdirp
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'mkdirp',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   name: 'mkdirp',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+142 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+143 silly cache add args [ 'object-assign@^3.0.0', null ]
+144 verbose cache add spec object-assign@^3.0.0
+145 silly cache add parsed spec Result {
+145 silly cache add   raw: 'object-assign@^3.0.0',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'object-assign',
+145 silly cache add   rawSpec: '^3.0.0',
+145 silly cache add   spec: '>=3.0.0 <4.0.0',
+145 silly cache add   type: 'range' }
+146 silly addNamed object-assign@>=3.0.0 <4.0.0
+147 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for object-assign
+148 silly addNameRange { name: 'object-assign',
+148 silly addNameRange   range: '>=3.0.0 <4.0.0',
+148 silly addNameRange   hasData: false }
+149 silly mapToRegistry name object-assign
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry data Result {
+152 silly mapToRegistry   raw: 'object-assign',
+152 silly mapToRegistry   scope: null,
+152 silly mapToRegistry   name: 'object-assign',
+152 silly mapToRegistry   rawSpec: '',
+152 silly mapToRegistry   spec: 'latest',
+152 silly mapToRegistry   type: 'tag' }
+153 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+154 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+155 silly cache add args [ 'on-finished@^2.3.0', null ]
+156 verbose cache add spec on-finished@^2.3.0
+157 silly cache add parsed spec Result {
+157 silly cache add   raw: 'on-finished@^2.3.0',
+157 silly cache add   scope: null,
+157 silly cache add   name: 'on-finished',
+157 silly cache add   rawSpec: '^2.3.0',
+157 silly cache add   spec: '>=2.3.0 <3.0.0',
+157 silly cache add   type: 'range' }
+158 silly addNamed on-finished@>=2.3.0 <3.0.0
+159 verbose addNamed ">=2.3.0 <3.0.0" is a valid semver range for on-finished
+160 silly addNameRange { name: 'on-finished', range: '>=2.3.0 <3.0.0', hasData: false }
+161 silly mapToRegistry name on-finished
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry data Result {
+164 silly mapToRegistry   raw: 'on-finished',
+164 silly mapToRegistry   scope: null,
+164 silly mapToRegistry   name: 'on-finished',
+164 silly mapToRegistry   rawSpec: '',
+164 silly mapToRegistry   spec: 'latest',
+164 silly mapToRegistry   type: 'tag' }
+165 silly mapToRegistry uri https://registry.npmjs.org/on-finished
+166 verbose addNameRange registry:https://registry.npmjs.org/on-finished not in flight; fetching
+167 silly cache add args [ 'type-is@^1.6.4', null ]
+168 verbose cache add spec type-is@^1.6.4
+169 silly cache add parsed spec Result {
+169 silly cache add   raw: 'type-is@^1.6.4',
+169 silly cache add   scope: null,
+169 silly cache add   name: 'type-is',
+169 silly cache add   rawSpec: '^1.6.4',
+169 silly cache add   spec: '>=1.6.4 <2.0.0',
+169 silly cache add   type: 'range' }
+170 silly addNamed type-is@>=1.6.4 <2.0.0
+171 verbose addNamed ">=1.6.4 <2.0.0" is a valid semver range for type-is
+172 silly addNameRange { name: 'type-is', range: '>=1.6.4 <2.0.0', hasData: false }
+173 silly mapToRegistry name type-is
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry data Result {
+176 silly mapToRegistry   raw: 'type-is',
+176 silly mapToRegistry   scope: null,
+176 silly mapToRegistry   name: 'type-is',
+176 silly mapToRegistry   rawSpec: '',
+176 silly mapToRegistry   spec: 'latest',
+176 silly mapToRegistry   type: 'tag' }
+177 silly mapToRegistry uri https://registry.npmjs.org/type-is
+178 verbose addNameRange registry:https://registry.npmjs.org/type-is not in flight; fetching
+179 silly cache add args [ 'xtend@^4.0.0', null ]
+180 verbose cache add spec xtend@^4.0.0
+181 silly cache add parsed spec Result {
+181 silly cache add   raw: 'xtend@^4.0.0',
+181 silly cache add   scope: null,
+181 silly cache add   name: 'xtend',
+181 silly cache add   rawSpec: '^4.0.0',
+181 silly cache add   spec: '>=4.0.0 <5.0.0',
+181 silly cache add   type: 'range' }
+182 silly addNamed xtend@>=4.0.0 <5.0.0
+183 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for xtend
+184 silly addNameRange { name: 'xtend', range: '>=4.0.0 <5.0.0', hasData: false }
+185 silly mapToRegistry name xtend
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry https://registry.npmjs.org/
+188 silly mapToRegistry data Result {
+188 silly mapToRegistry   raw: 'xtend',
+188 silly mapToRegistry   scope: null,
+188 silly mapToRegistry   name: 'xtend',
+188 silly mapToRegistry   rawSpec: '',
+188 silly mapToRegistry   spec: 'latest',
+188 silly mapToRegistry   type: 'tag' }
+189 silly mapToRegistry uri https://registry.npmjs.org/xtend
+190 verbose addNameRange registry:https://registry.npmjs.org/xtend not in flight; fetching
+191 verbose request uri https://registry.npmjs.org/busboy
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 21:21:17
+194 http request GET https://registry.npmjs.org/busboy
+195 verbose request uri https://registry.npmjs.org/append-field
+196 verbose request no auth needed
+197 info attempt registry request try #1 at 21:21:17
+198 verbose etag "2AGYX9N53EUMOLBD0FKTG5BU0"
+199 http request GET https://registry.npmjs.org/append-field
+200 verbose request uri https://registry.npmjs.org/mkdirp
+201 verbose request no auth needed
+202 info attempt registry request try #1 at 21:21:17
+203 verbose etag "J3O6HHMQRLZKHHOE1FWFG5Z3"
+204 http request GET https://registry.npmjs.org/mkdirp
+205 verbose request uri https://registry.npmjs.org/object-assign
+206 verbose request no auth needed
+207 info attempt registry request try #1 at 21:21:17
+208 verbose etag "3T2UTZ36VZ4496OJPNLLBEHUS"
+209 http request GET https://registry.npmjs.org/object-assign
+210 verbose request uri https://registry.npmjs.org/concat-stream
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 21:21:17
+213 verbose etag "3N0FWDFEVI4ARVOZRW5DDRM0O"
+214 http request GET https://registry.npmjs.org/concat-stream
+215 verbose request uri https://registry.npmjs.org/on-finished
+216 verbose request no auth needed
+217 info attempt registry request try #1 at 21:21:17
+218 verbose etag "A5GRQ4NSMALTQT5MI8F1CPEXB"
+219 http request GET https://registry.npmjs.org/on-finished
+220 verbose request uri https://registry.npmjs.org/xtend
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 21:21:17
+223 verbose etag "3A8QE0J17ULRJ9ERTGGBNQG71"
+224 http request GET https://registry.npmjs.org/xtend
+225 verbose request uri https://registry.npmjs.org/type-is
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 21:21:17
+228 verbose etag "6MF2TP522BDBG0RWZVQFH30D1"
+229 http request GET https://registry.npmjs.org/type-is
+230 http 304 https://registry.npmjs.org/on-finished
+231 verbose headers { date: 'Sun, 18 Sep 2016 13:21:20 GMT',
+231 verbose headers   via: '1.1 varnish',
+231 verbose headers   'cache-control': 'max-age=300',
+231 verbose headers   etag: '"A5GRQ4NSMALTQT5MI8F1CPEXB"',
+231 verbose headers   age: '20',
+231 verbose headers   connection: 'keep-alive',
+231 verbose headers   'x-served-by': 'cache-lcy1124-LCY',
+231 verbose headers   'x-cache': 'HIT',
+231 verbose headers   'x-cache-hits': '1',
+231 verbose headers   'x-timer': 'S1474204880.168872,VS0,VE0',
+231 verbose headers   vary: 'Accept-Encoding' }
+232 silly get cb [ 304,
+232 silly get   { date: 'Sun, 18 Sep 2016 13:21:20 GMT',
+232 silly get     via: '1.1 varnish',
+232 silly get     'cache-control': 'max-age=300',
+232 silly get     etag: '"A5GRQ4NSMALTQT5MI8F1CPEXB"',
+232 silly get     age: '20',
+232 silly get     connection: 'keep-alive',
+232 silly get     'x-served-by': 'cache-lcy1124-LCY',
+232 silly get     'x-cache': 'HIT',
+232 silly get     'x-cache-hits': '1',
+232 silly get     'x-timer': 'S1474204880.168872,VS0,VE0',
+232 silly get     vary: 'Accept-Encoding' } ]
+233 verbose etag https://registry.npmjs.org/on-finished from cache
+234 verbose get saving on-finished to C:\Users\zzl\AppData\Roaming\npm-cache\registry.npmjs.org\on-finished\.cache.json
+235 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+236 http 304 https://registry.npmjs.org/type-is
+237 verbose headers { date: 'Sun, 18 Sep 2016 13:21:20 GMT',
+237 verbose headers   via: '1.1 varnish',
+237 verbose headers   'cache-control': 'max-age=300',
+237 verbose headers   etag: '"6MF2TP522BDBG0RWZVQFH30D1"',
+237 verbose headers   age: '84',
+237 verbose headers   connection: 'keep-alive',
+237 verbose headers   'x-served-by': 'cache-lcy1127-LCY',
+237 verbose headers   'x-cache': 'HIT',
+237 verbose headers   'x-cache-hits': '4',
+237 verbose headers   'x-timer': 'S1474204880.169767,VS0,VE0',
+237 verbose headers   vary: 'Accept-Encoding' }
+238 silly get cb [ 304,
+238 silly get   { date: 'Sun, 18 Sep 2016 13:21:20 GMT',
+238 silly get     via: '1.1 varnish',
+238 silly get     'cache-control': 'max-age=300',
+238 silly get     etag: '"6MF2TP522BDBG0RWZVQFH30D1"',
+238 silly get     age: '84',
+238 silly get     connection: 'keep-alive',
+238 silly get     'x-served-by': 'cache-lcy1127-LCY',
+238 silly get     'x-cache': 'HIT',
+238 silly get     'x-cache-hits': '4',
+238 silly get     'x-timer': 'S1474204880.169767,VS0,VE0',
+238 silly get     vary: 'Accept-Encoding' } ]
+239 verbose etag https://registry.npmjs.org/type-is from cache
+240 verbose get saving type-is to C:\Users\zzl\AppData\Roaming\npm-cache\registry.npmjs.org\type-is\.cache.json
+241 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+242 silly addNameRange number 2 { name: 'on-finished', range: '>=2.3.0 <3.0.0', hasData: true }
+243 silly addNameRange versions [ 'on-finished',
+243 silly addNameRange   [ '2.0.0', '2.1.0', '2.1.1', '2.2.0', '2.2.1', '2.3.0' ] ]
+244 silly addNamed on-finished@2.3.0
+245 verbose addNamed "2.3.0" is a plain semver version for on-finished
+246 silly addNameRange number 2 { name: 'type-is', range: '>=1.6.4 <2.0.0', hasData: true }
+247 silly addNameRange versions [ 'type-is',
+247 silly addNameRange   [ '1.0.0',
+247 silly addNameRange     '1.0.1',
+247 silly addNameRange     '1.1.0',
+247 silly addNameRange     '1.2.0',
+247 silly addNameRange     '1.2.1',
+247 silly addNameRange     '1.2.2',
+247 silly addNameRange     '1.3.0',
+247 silly addNameRange     '1.3.1',
+247 silly addNameRange     '1.3.2',
+247 silly addNameRange     '1.4.0',
+247 silly addNameRange     '1.5.0',
+247 silly addNameRange     '1.5.1',
+247 silly addNameRange     '1.5.2',
+247 silly addNameRange     '1.5.3',
+247 silly addNameRange     '1.5.4',
+247 silly addNameRange     '1.5.5',
+247 silly addNameRange     '1.5.6',
+247 silly addNameRange     '1.5.7',
+247 silly addNameRange     '1.6.0',
+247 silly addNameRange     '1.6.1',
+247 silly addNameRange     '1.6.2',
+247 silly addNameRange     '1.6.3',
+247 silly addNameRange     '1.6.4',
+247 silly addNameRange     '1.6.5',
+247 silly addNameRange     '1.6.6',
+247 silly addNameRange     '1.6.7',
+247 silly addNameRange     '1.6.8',
+247 silly addNameRange     '1.6.9',
+247 silly addNameRange     '1.6.10',
+247 silly addNameRange     '1.6.11',
+247 silly addNameRange     '1.6.12',
+247 silly addNameRange     '1.6.13' ] ]
+248 silly addNamed type-is@1.6.13
+249 verbose addNamed "1.6.13" is a plain semver version for type-is
+250 silly cache afterAdd on-finished@2.3.0
+251 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\on-finished\2.3.0\package\package.json not in flight; writing
+252 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+253 silly cache afterAdd type-is@1.6.13
+254 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\type-is\1.6.13\package\package.json not in flight; writing
+255 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+256 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\on-finished\2.3.0\package\package.json written
+257 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\type-is\1.6.13\package\package.json written
+258 http 304 https://registry.npmjs.org/append-field
+259 verbose headers { date: 'Sun, 18 Sep 2016 13:21:19 GMT',
+259 verbose headers   via: '1.1 varnish',
+259 verbose headers   'cache-control': 'max-age=300',
+259 verbose headers   etag: '"2AGYX9N53EUMOLBD0FKTG5BU0"',
+259 verbose headers   age: '257',
+259 verbose headers   connection: 'keep-alive',
+259 verbose headers   'x-served-by': 'cache-lcy1135-LCY',
+259 verbose headers   'x-cache': 'HIT',
+259 verbose headers   'x-cache-hits': '1',
+259 verbose headers   'x-timer': 'S1474204879.817433,VS0,VE0',
+259 verbose headers   vary: 'Accept-Encoding' }
+260 silly get cb [ 304,
+260 silly get   { date: 'Sun, 18 Sep 2016 13:21:19 GMT',
+260 silly get     via: '1.1 varnish',
+260 silly get     'cache-control': 'max-age=300',
+260 silly get     etag: '"2AGYX9N53EUMOLBD0FKTG5BU0"',
+260 silly get     age: '257',
+260 silly get     connection: 'keep-alive',
+260 silly get     'x-served-by': 'cache-lcy1135-LCY',
+260 silly get     'x-cache': 'HIT',
+260 silly get     'x-cache-hits': '1',
+260 silly get     'x-timer': 'S1474204879.817433,VS0,VE0',
+260 silly get     vary: 'Accept-Encoding' } ]
+261 verbose etag https://registry.npmjs.org/append-field from cache
+262 verbose get saving append-field to C:\Users\zzl\AppData\Roaming\npm-cache\registry.npmjs.org\append-field\.cache.json
+263 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+264 silly addNameRange number 2 { name: 'append-field', range: '>=0.1.0 <0.2.0', hasData: true }
+265 silly addNameRange versions [ 'append-field', [ '0.1.0', '1.0.0' ] ]
+266 silly addNamed append-field@0.1.0
+267 verbose addNamed "0.1.0" is a plain semver version for append-field
+268 silly cache afterAdd append-field@0.1.0
+269 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\append-field\0.1.0\package\package.json not in flight; writing
+270 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+271 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\append-field\0.1.0\package\package.json written
+272 http 200 https://registry.npmjs.org/busboy
+273 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+273 verbose headers   etag: '"40NDPGC0RAJCAK0Z0KG7YPU2S"',
+273 verbose headers   'content-type': 'application/json',
+273 verbose headers   'content-encoding': 'gzip',
+273 verbose headers   'cache-control': 'max-age=300',
+273 verbose headers   'content-length': '6852',
+273 verbose headers   'accept-ranges': 'bytes',
+273 verbose headers   date: 'Sun, 18 Sep 2016 13:21:19 GMT',
+273 verbose headers   via: '1.1 varnish',
+273 verbose headers   age: '256',
+273 verbose headers   connection: 'keep-alive',
+273 verbose headers   'x-served-by': 'cache-lcy1123-LCY',
+273 verbose headers   'x-cache': 'HIT',
+273 verbose headers   'x-cache-hits': '2',
+273 verbose headers   'x-timer': 'S1474204879.283883,VS0,VE0',
+273 verbose headers   vary: 'Accept-Encoding' }
+274 silly get cb [ 200,
+274 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+274 silly get     etag: '"40NDPGC0RAJCAK0Z0KG7YPU2S"',
+274 silly get     'content-type': 'application/json',
+274 silly get     'content-encoding': 'gzip',
+274 silly get     'cache-control': 'max-age=300',
+274 silly get     'content-length': '6852',
+274 silly get     'accept-ranges': 'bytes',
+274 silly get     date: 'Sun, 18 Sep 2016 13:21:19 GMT',
+274 silly get     via: '1.1 varnish',
+274 silly get     age: '256',
+274 silly get     connection: 'keep-alive',
+274 silly get     'x-served-by': 'cache-lcy1123-LCY',
+274 silly get     'x-cache': 'HIT',
+274 silly get     'x-cache-hits': '2',
+274 silly get     'x-timer': 'S1474204879.283883,VS0,VE0',
+274 silly get     vary: 'Accept-Encoding' } ]
+275 verbose get saving busboy to C:\Users\zzl\AppData\Roaming\npm-cache\registry.npmjs.org\busboy\.cache.json
+276 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+277 silly addNameRange number 2 { name: 'busboy', range: '>=0.2.11 <0.3.0', hasData: true }
+278 silly addNameRange versions [ 'busboy',
+278 silly addNameRange   [ '0.0.1',
+278 silly addNameRange     '0.0.2',
+278 silly addNameRange     '0.0.3',
+278 silly addNameRange     '0.0.4',
+278 silly addNameRange     '0.0.5',
+278 silly addNameRange     '0.0.6',
+278 silly addNameRange     '0.0.7',
+278 silly addNameRange     '0.0.8',
+278 silly addNameRange     '0.0.9',
+278 silly addNameRange     '0.0.10',
+278 silly addNameRange     '0.0.11',
+278 silly addNameRange     '0.0.12',
+278 silly addNameRange     '0.0.13',
+278 silly addNameRange     '0.0.14',
+278 silly addNameRange     '0.0.15',
+278 silly addNameRange     '0.1.0',
+278 silly addNameRange     '0.1.1',
+278 silly addNameRange     '0.2.0',
+278 silly addNameRange     '0.2.1',
+278 silly addNameRange     '0.2.2',
+278 silly addNameRange     '0.2.3',
+278 silly addNameRange     '0.2.4',
+278 silly addNameRange     '0.2.5',
+278 silly addNameRange     '0.2.6',
+278 silly addNameRange     '0.2.7',
+278 silly addNameRange     '0.2.8',
+278 silly addNameRange     '0.2.9',
+278 silly addNameRange     '0.2.10',
+278 silly addNameRange     '0.2.11',
+278 silly addNameRange     '0.2.12',
+278 silly addNameRange     '0.2.13' ] ]
+279 silly addNamed busboy@0.2.13
+280 verbose addNamed "0.2.13" is a plain semver version for busboy
+281 silly mapToRegistry name busboy
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry https://registry.npmjs.org/
+284 silly mapToRegistry data Result {
+284 silly mapToRegistry   raw: 'busboy',
+284 silly mapToRegistry   scope: null,
+284 silly mapToRegistry   name: 'busboy',
+284 silly mapToRegistry   rawSpec: '',
+284 silly mapToRegistry   spec: 'latest',
+284 silly mapToRegistry   type: 'tag' }
+285 silly mapToRegistry uri https://registry.npmjs.org/busboy
+286 verbose addRemoteTarball https://registry.npmjs.org/busboy/-/busboy-0.2.13.tgz not in flight; adding
+287 verbose addRemoteTarball [ 'https://registry.npmjs.org/busboy/-/busboy-0.2.13.tgz',
+287 verbose addRemoteTarball   '90fc4f6a3967d815616fc976bfa8e56aed0c58b6' ]
+288 info retry fetch attempt 1 at 21:21:19
+289 info attempt registry request try #1 at 21:21:19
+290 http fetch GET https://registry.npmjs.org/busboy/-/busboy-0.2.13.tgz
+291 http 304 https://registry.npmjs.org/object-assign
+292 verbose headers { date: 'Sun, 18 Sep 2016 13:21:20 GMT',
+292 verbose headers   via: '1.1 varnish',
+292 verbose headers   'cache-control': 'max-age=300',
+292 verbose headers   etag: '"3T2UTZ36VZ4496OJPNLLBEHUS"',
+292 verbose headers   age: '142',
+292 verbose headers   connection: 'keep-alive',
+292 verbose headers   'x-served-by': 'cache-lcy1135-LCY',
+292 verbose headers   'x-cache': 'HIT',
+292 verbose headers   'x-cache-hits': '5',
+292 verbose headers   'x-timer': 'S1474204880.156850,VS0,VE0',
+292 verbose headers   vary: 'Accept-Encoding' }
+293 silly get cb [ 304,
+293 silly get   { date: 'Sun, 18 Sep 2016 13:21:20 GMT',
+293 silly get     via: '1.1 varnish',
+293 silly get     'cache-control': 'max-age=300',
+293 silly get     etag: '"3T2UTZ36VZ4496OJPNLLBEHUS"',
+293 silly get     age: '142',
+293 silly get     connection: 'keep-alive',
+293 silly get     'x-served-by': 'cache-lcy1135-LCY',
+293 silly get     'x-cache': 'HIT',
+293 silly get     'x-cache-hits': '5',
+293 silly get     'x-timer': 'S1474204880.156850,VS0,VE0',
+293 silly get     vary: 'Accept-Encoding' } ]
+294 verbose etag https://registry.npmjs.org/object-assign from cache
+295 verbose get saving object-assign to C:\Users\zzl\AppData\Roaming\npm-cache\registry.npmjs.org\object-assign\.cache.json
+296 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+297 silly addNameRange number 2 { name: 'object-assign', range: '>=3.0.0 <4.0.0', hasData: true }
+298 silly addNameRange versions [ 'object-assign',
+298 silly addNameRange   [ '0.1.0',
+298 silly addNameRange     '0.1.1',
+298 silly addNameRange     '0.1.2',
+298 silly addNameRange     '0.2.0',
+298 silly addNameRange     '0.2.1',
+298 silly addNameRange     '0.2.2',
+298 silly addNameRange     '0.3.0',
+298 silly addNameRange     '0.3.1',
+298 silly addNameRange     '0.4.0',
+298 silly addNameRange     '1.0.0',
+298 silly addNameRange     '2.0.0',
+298 silly addNameRange     '3.0.0',
+298 silly addNameRange     '2.1.1',
+298 silly addNameRange     '4.0.0',
+298 silly addNameRange     '4.0.1',
+298 silly addNameRange     '4.1.0' ] ]
+299 silly addNamed object-assign@3.0.0
+300 verbose addNamed "3.0.0" is a plain semver version for object-assign
+301 silly cache afterAdd object-assign@3.0.0
+302 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\object-assign\3.0.0\package\package.json not in flight; writing
+303 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+304 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\object-assign\3.0.0\package\package.json written
+305 http 304 https://registry.npmjs.org/mkdirp
+306 verbose headers { date: 'Sun, 18 Sep 2016 13:21:21 GMT',
+306 verbose headers   via: '1.1 varnish',
+306 verbose headers   'cache-control': 'max-age=300',
+306 verbose headers   etag: '"J3O6HHMQRLZKHHOE1FWFG5Z3"',
+306 verbose headers   age: '100',
+306 verbose headers   connection: 'keep-alive',
+306 verbose headers   'x-served-by': 'cache-lcy1120-LCY',
+306 verbose headers   'x-cache': 'HIT',
+306 verbose headers   'x-cache-hits': '2',
+306 verbose headers   'x-timer': 'S1474204881.173978,VS0,VE0',
+306 verbose headers   vary: 'Accept-Encoding' }
+307 silly get cb [ 304,
+307 silly get   { date: 'Sun, 18 Sep 2016 13:21:21 GMT',
+307 silly get     via: '1.1 varnish',
+307 silly get     'cache-control': 'max-age=300',
+307 silly get     etag: '"J3O6HHMQRLZKHHOE1FWFG5Z3"',
+307 silly get     age: '100',
+307 silly get     connection: 'keep-alive',
+307 silly get     'x-served-by': 'cache-lcy1120-LCY',
+307 silly get     'x-cache': 'HIT',
+307 silly get     'x-cache-hits': '2',
+307 silly get     'x-timer': 'S1474204881.173978,VS0,VE0',
+307 silly get     vary: 'Accept-Encoding' } ]
+308 verbose etag https://registry.npmjs.org/mkdirp from cache
+309 verbose get saving mkdirp to C:\Users\zzl\AppData\Roaming\npm-cache\registry.npmjs.org\mkdirp\.cache.json
+310 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+311 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: true }
+312 silly addNameRange versions [ 'mkdirp',
+312 silly addNameRange   [ '0.0.1',
+312 silly addNameRange     '0.0.2',
+312 silly addNameRange     '0.0.3',
+312 silly addNameRange     '0.0.4',
+312 silly addNameRange     '0.0.5',
+312 silly addNameRange     '0.0.6',
+312 silly addNameRange     '0.0.7',
+312 silly addNameRange     '0.1.0',
+312 silly addNameRange     '0.2.0',
+312 silly addNameRange     '0.2.1',
+312 silly addNameRange     '0.2.2',
+312 silly addNameRange     '0.3.0',
+312 silly addNameRange     '0.3.1',
+312 silly addNameRange     '0.3.2',
+312 silly addNameRange     '0.3.3',
+312 silly addNameRange     '0.3.4',
+312 silly addNameRange     '0.3.5',
+312 silly addNameRange     '0.4.0',
+312 silly addNameRange     '0.4.1',
+312 silly addNameRange     '0.4.2',
+312 silly addNameRange     '0.5.0',
+312 silly addNameRange     '0.5.1' ] ]
+313 silly addNamed mkdirp@0.5.1
+314 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+315 silly cache afterAdd mkdirp@0.5.1
+316 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\mkdirp\0.5.1\package\package.json not in flight; writing
+317 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+318 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\mkdirp\0.5.1\package\package.json written
+319 http fetch 200 https://registry.npmjs.org/busboy/-/busboy-0.2.13.tgz
+320 http 304 https://registry.npmjs.org/concat-stream
+321 verbose headers { date: 'Sun, 18 Sep 2016 13:21:21 GMT',
+321 verbose headers   via: '1.1 varnish',
+321 verbose headers   'cache-control': 'max-age=300',
+321 verbose headers   etag: '"3N0FWDFEVI4ARVOZRW5DDRM0O"',
+321 verbose headers   age: '278',
+321 verbose headers   connection: 'keep-alive',
+321 verbose headers   'x-served-by': 'cache-lcy1125-LCY',
+321 verbose headers   'x-cache': 'HIT',
+321 verbose headers   'x-cache-hits': '4',
+321 verbose headers   'x-timer': 'S1474204881.161125,VS0,VE0',
+321 verbose headers   vary: 'Accept-Encoding' }
+322 silly get cb [ 304,
+322 silly get   { date: 'Sun, 18 Sep 2016 13:21:21 GMT',
+322 silly get     via: '1.1 varnish',
+322 silly get     'cache-control': 'max-age=300',
+322 silly get     etag: '"3N0FWDFEVI4ARVOZRW5DDRM0O"',
+322 silly get     age: '278',
+322 silly get     connection: 'keep-alive',
+322 silly get     'x-served-by': 'cache-lcy1125-LCY',
+322 silly get     'x-cache': 'HIT',
+322 silly get     'x-cache-hits': '4',
+322 silly get     'x-timer': 'S1474204881.161125,VS0,VE0',
+322 silly get     vary: 'Accept-Encoding' } ]
+323 verbose etag https://registry.npmjs.org/concat-stream from cache
+324 verbose get saving concat-stream to C:\Users\zzl\AppData\Roaming\npm-cache\registry.npmjs.org\concat-stream\.cache.json
+325 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+326 silly addNameRange number 2 { name: 'concat-stream', range: '>=1.5.0 <2.0.0', hasData: true }
+327 silly addNameRange versions [ 'concat-stream',
+327 silly addNameRange   [ '0.0.1',
+327 silly addNameRange     '0.0.2',
+327 silly addNameRange     '0.0.3',
+327 silly addNameRange     '0.0.4',
+327 silly addNameRange     '0.0.5',
+327 silly addNameRange     '0.0.6',
+327 silly addNameRange     '0.0.7',
+327 silly addNameRange     '0.0.8',
+327 silly addNameRange     '0.0.9',
+327 silly addNameRange     '0.1.0',
+327 silly addNameRange     '0.1.1',
+327 silly addNameRange     '1.0.0',
+327 silly addNameRange     '1.0.1',
+327 silly addNameRange     '1.1.0',
+327 silly addNameRange     '1.2.0',
+327 silly addNameRange     '1.2.1',
+327 silly addNameRange     '1.3.0',
+327 silly addNameRange     '1.3.1',
+327 silly addNameRange     '1.4.0',
+327 silly addNameRange     '1.4.1',
+327 silly addNameRange     '1.4.2',
+327 silly addNameRange     '1.4.3',
+327 silly addNameRange     '1.4.4',
+327 silly addNameRange     '1.4.5',
+327 silly addNameRange     '1.4.6',
+327 silly addNameRange     '1.4.7',
+327 silly addNameRange     '1.4.8',
+327 silly addNameRange     '1.4.10',
+327 silly addNameRange     '1.5.0',
+327 silly addNameRange     '1.5.1',
+327 silly addNameRange     '1.5.2' ] ]
+328 silly addNamed concat-stream@1.5.2
+329 verbose addNamed "1.5.2" is a plain semver version for concat-stream
+330 silly cache afterAdd concat-stream@1.5.2
+331 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\concat-stream\1.5.2\package\package.json not in flight; writing
+332 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+333 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\concat-stream\1.5.2\package\package.json written
+334 http 304 https://registry.npmjs.org/xtend
+335 verbose headers { date: 'Sun, 18 Sep 2016 13:21:26 GMT',
+335 verbose headers   via: '1.1 varnish',
+335 verbose headers   'cache-control': 'max-age=300',
+335 verbose headers   etag: '"3A8QE0J17ULRJ9ERTGGBNQG71"',
+335 verbose headers   age: '51',
+335 verbose headers   connection: 'keep-alive',
+335 verbose headers   'x-served-by': 'cache-lcy1123-LCY',
+335 verbose headers   'x-cache': 'HIT',
+335 verbose headers   'x-cache-hits': '2',
+335 verbose headers   'x-timer': 'S1474204886.116413,VS0,VE0',
+335 verbose headers   vary: 'Accept-Encoding' }
+336 silly get cb [ 304,
+336 silly get   { date: 'Sun, 18 Sep 2016 13:21:26 GMT',
+336 silly get     via: '1.1 varnish',
+336 silly get     'cache-control': 'max-age=300',
+336 silly get     etag: '"3A8QE0J17ULRJ9ERTGGBNQG71"',
+336 silly get     age: '51',
+336 silly get     connection: 'keep-alive',
+336 silly get     'x-served-by': 'cache-lcy1123-LCY',
+336 silly get     'x-cache': 'HIT',
+336 silly get     'x-cache-hits': '2',
+336 silly get     'x-timer': 'S1474204886.116413,VS0,VE0',
+336 silly get     vary: 'Accept-Encoding' } ]
+337 verbose etag https://registry.npmjs.org/xtend from cache
+338 verbose get saving xtend to C:\Users\zzl\AppData\Roaming\npm-cache\registry.npmjs.org\xtend\.cache.json
+339 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+340 silly addNameRange number 2 { name: 'xtend', range: '>=4.0.0 <5.0.0', hasData: true }
+341 silly addNameRange versions [ 'xtend',
+341 silly addNameRange   [ '1.0.0',
+341 silly addNameRange     '1.0.1',
+341 silly addNameRange     '1.0.2',
+341 silly addNameRange     '1.0.3',
+341 silly addNameRange     '2.0.1',
+341 silly addNameRange     '2.0.2',
+341 silly addNameRange     '2.0.3',
+341 silly addNameRange     '2.0.4',
+341 silly addNameRange     '2.0.5',
+341 silly addNameRange     '2.0.6',
+341 silly addNameRange     '2.1.1',
+341 silly addNameRange     '2.1.2',
+341 silly addNameRange     '2.2.0',
+341 silly addNameRange     '3.0.0',
+341 silly addNameRange     '4.0.0',
+341 silly addNameRange     '4.0.1' ] ]
+342 silly addNamed xtend@4.0.1
+343 verbose addNamed "4.0.1" is a plain semver version for xtend
+344 silly cache afterAdd xtend@4.0.1
+345 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\xtend\4.0.1\package\package.json not in flight; writing
+346 verbose correctMkdir C:\Users\zzl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+347 verbose afterAdd C:\Users\zzl\AppData\Roaming\npm-cache\xtend\4.0.1\package\package.json written
+348 info retry will retry, error on last attempt: Error: read ECONNRESET
+349 info retry will retry, error on last attempt: Error: read ECONNRESET
+350 silly fetchAndShaCheck shasum 90fc4f6a3967d815616fc976bfa8e56aed0c58b6
+351 verbose about to build D:\Nodejs\Projects\NodeTest\node_modules\multer
+352 verbose unlock done using C:\Users\zzl\AppData\Roaming\npm-cache\_locks\multer-de914dce9ff2f8b0.lock for D:\Nodejs\Projects\NodeTest\node_modules\multer
+353 verbose stack Error: shasum check failed for C:\Users\zzl\AppData\Local\Temp\npm-6764-76477486\registry.npmjs.org\busboy\-\busboy-0.2.13.tgz
+353 verbose stack Expected: 90fc4f6a3967d815616fc976bfa8e56aed0c58b6
+353 verbose stack Actual:   5e78904b21c6238290dcf3516833ef72f19cf3d6
+353 verbose stack From:     https://registry.npmjs.org/busboy/-/busboy-0.2.13.tgz
+353 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:25:8
+353 verbose stack     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:72:7)
+353 verbose stack     at emitNone (events.js:72:20)
+353 verbose stack     at ReadStream.emit (events.js:166:7)
+353 verbose stack     at endReadableNT (_stream_readable.js:913:12)
+353 verbose stack     at nextTickCallbackWith2Args (node.js:442:9)
+353 verbose stack     at process._tickCallback (node.js:356:17)
+354 verbose cwd D:\Nodejs\Projects\NodeTest
+355 error Windows_NT 10.0.10586
+356 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "multer"
+357 error node v4.4.5
+358 error npm  v2.15.5
+359 error shasum check failed for C:\Users\zzl\AppData\Local\Temp\npm-6764-76477486\registry.npmjs.org\busboy\-\busboy-0.2.13.tgz
+359 error Expected: 90fc4f6a3967d815616fc976bfa8e56aed0c58b6
+359 error Actual:   5e78904b21c6238290dcf3516833ef72f19cf3d6
+359 error From:     https://registry.npmjs.org/busboy/-/busboy-0.2.13.tgz
+360 error If you need help, you may report this error at:
+360 error     <https://github.com/npm/npm/issues>
+361 verbose exit [ 1, true ]
+362 verbose unbuild node_modules\multer
+363 info preuninstall multer@1.2.0
+364 info uninstall multer@1.2.0
+365 verbose unbuild rmStuff multer@1.2.0 from D:\Nodejs\Projects\NodeTest\node_modules
+366 info postuninstall multer@1.2.0
+367 silly gentlyRm D:\Nodejs\Projects\NodeTest\node_modules\multer is being purged from base D:\Nodejs\Projects\NodeTest
+368 verbose gentlyRm don't care about contents; nuking D:\Nodejs\Projects\NodeTest\node_modules\multer
+369 silly vacuum-fs purging D:\Nodejs\Projects\NodeTest\node_modules\multer
+370 silly vacuum-fs quitting because other entries in D:\Nodejs\Projects\NodeTest\node_modules

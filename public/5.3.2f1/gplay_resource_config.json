@@ -1,0 +1,129 @@
+{
+    "versioncode": "0", 
+    "scenes": [
+        {
+            "patch": [], 
+            "order": 0, 
+            "groups": [
+                "boot"
+            ], 
+            "name": "boot_scene"
+        },
+        {
+            "patch": [], 
+            "order": 0, 
+            "groups": [
+                "ResourcesTexture"
+            ], 
+            "name": "ResourcesTexture"
+        },
+        {
+            "patch": [], 
+            "order": 0, 
+            "groups": [
+                "WWWTexture"
+            ], 
+            "name": "WWWTexture"
+        }
+    ], 
+    "groups": [
+        {
+            "path": "group/boot.gip", 
+            "size": 8413704,
+            "res": [
+                "assets/GPlayConfig.xml",
+                "assets/bin/Data/3d61d7187461902428cc630da14c750b.obb",
+                "assets/bin/Data/6d7b911addfa39a4f83dbd80a4ca3fd9.obb",
+                "assets/bin/Data/c5ea179da514fda4c9d2ab2f82f435b7.obb",
+                "assets/bin/Data/cd1f05da52417b74dacf67a98bc95742.obb",
+                "assets/bin/Data/d19f04179d6b4fa449f5fb944b20d341.obb",
+                "assets/bin/Data/e084b0db49223a1428ae8786c7428af1.obb",
+                "assets/bin/Data/globalgamemanagers.assets.obb",
+                "assets/bin/Data/globalgamemanagers.obb",
+                "assets/bin/Data/level0.split0.obb",
+                "assets/bin/Data/level0.split1.obb",
+                "assets/bin/Data/level0.split2.obb",
+                "assets/bin/Data/level0.split3.obb",
+                "assets/bin/Data/level0.split4.obb",
+                "assets/bin/Data/level0.split5.obb",
+                "assets/bin/Data/level0.split6.obb",
+                "assets/bin/Data/level0.split7.obb",
+                "assets/bin/Data/level0.split8.obb",
+                "assets/bin/Data/level0.split9.obb",
+                "assets/bin/Data/level0.split10.obb",
+                "assets/bin/Data/level1.obb",
+                "assets/bin/Data/settings.xml",
+                "assets/bin/Data/sharedassets0.assets.obb",
+                "assets/bin/Data/sharedassets1.assets.split0.obb",
+                "assets/bin/Data/sharedassets1.assets.split1.obb",
+                "assets/bin/Data/sharedassets1.assets.split2.obb",
+                "assets/bin/Data/sharedassets1.assets.split3.obb",
+                "assets/bin/Data/sharedassets1.assets.split4.obb",
+                "assets/bin/Data/sharedassets1.assets.split5.obb",
+                "assets/bin/Data/sharedassets1.assets.split6.obb",
+                "assets/bin/Data/sharedassets1.assets.split7.obb",
+                "assets/bin/Data/sharedassets1.assets.split8.obb",
+                "assets/bin/Data/sharedassets1.assets.split9.obb",
+                "assets/bin/Data/sharedassets1.assets.split10.obb",
+                "assets/bin/Data/sharedassets1.assets.split11.obb",
+                "assets/bin/Data/sharedassets1.assets.split12.obb",
+                "assets/bin/Data/sharedassets1.assets.split13.obb",
+                "assets/bin/Data/sharedassets1.assets.split14.obb",
+                "assets/bin/Data/sharedassets1.assets.split15.obb",
+                "assets/bin/Data/sharedassets1.assets.split16.obb",
+                "assets/bin/Data/sharedassets1.assets.split17.obb",
+                "assets/bin/Data/sharedassets1.assets.split18.obb",
+                "assets/bin/Data/sharedassets1.assets.split19.obb",
+                "assets/bin/Data/sharedassets1.assets.split20.obb",
+                "assets/bin/Data/sharedassets1.assets.split21.obb",
+                "assets/bin/Data/sharedassets1.assets.split22.obb",
+                "assets/bin/Data/sharedassets1.assets.split23.obb",
+                "assets/bin/Data/sharedassets1.assets.split24.obb",
+                "assets/bin/Data/sharedassets1.assets.split25.obb",
+                "assets/bin/Data/sharedassets1.resource.split0.obb",
+                "assets/bin/Data/sharedassets1.resource.split1.obb",
+                "assets/bin/Data/sharedassets1.resource.split2.obb",
+                "assets/bin/Data/sharedassets1.resource.split3.obb",
+                "assets/bin/Data/splash.png.obb",
+                "assets/bin/Data/unity default resources.obb",
+                "assets/bin/Data/Managed/Assembly-CSharp.dll.obb",
+                "assets/bin/Data/Managed/GPlayCPSDKLib.dll.obb",
+                "assets/bin/Data/Managed/Mono.Security.dll.obb",
+                "assets/bin/Data/Managed/mscorlib.dll.obb",
+                "assets/bin/Data/Managed/System.Core.dll.obb",
+                "assets/bin/Data/Managed/System.dll.obb",
+                "assets/bin/Data/Managed/UnityEngine.dll.obb",
+                "assets/bin/Data/Managed/UnityEngine.Networking.dll.obb",
+                "assets/bin/Data/Managed/UnityEngine.UI.dll.obb",
+                "assets/bin/Data/Resources/unity_builtin_extra.obb",
+                "assets/bin/Data/GI/level0/29/299f4ab3bb406ae174edeba4234bf00c.caw.obb",
+                "assets/bin/Data/GI/level0/29/299f4ab3bb406ae174edeba4234bf00c.ecm.obb",
+                "assets/bin/Data/GI/level0/29/299f4ab3bb406ae174edeba4234bf00c.iws.neo.obb",
+                "assets/bin/Data/GI/level0/29/299f4ab3bb406ae174edeba4234bf00c.rgb.obb",
+                "assets/bin/Data/GI/level0/29/299f4ab3bb406ae174edeba4234bf00c.rsc.neo.obb",
+                "assets/bin/Data/GI/level0/29/299f4ab3bb406ae174edeba4234bf00c.vis.obb"
+            ], 
+            "name": "boot", 
+            "md5": "DB350E4A6E9ADFC4545EB557DB810758"
+        },
+        {
+            "path": "group/ResourcesTexture.gip", 
+            "size": 4941, 
+            "res": [
+                "assets/bin/Data/13164ec7a39add24ea24a2602d46ffb7.obb"
+            ], 
+            "name": "ResourcesTexture", 
+            "md5": "78BD5FB329BEAB0B448F0AD78ADF2BD3"
+        },
+        {
+            "path": "group/WWWTexture.gip", 
+            "size": 3514, 
+            "res": [
+                "assets/WWWTexture.png"
+            ], 
+            "name": "WWWTexture", 
+            "md5": "F612CF85E774489D90B2510ED9CCCA0A"
+        }
+    ], 
+    "deletes": []
+}

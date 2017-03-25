@@ -1,0 +1,101 @@
+{
+    "versioncode": "0", 
+    "scenes": [
+        {
+            "patch": [], 
+            "order": 0, 
+            "groups": [
+                "boot"
+            ], 
+            "name": "boot_scene"
+        },
+        {
+            "patch": [], 
+            "order": 0, 
+            "groups": [
+                "ResourcesTexture"
+            ], 
+            "name": "ResourcesTexture"
+        },
+        {
+            "patch": [], 
+            "order": 0, 
+            "groups": [
+                "WWWTexture"
+            ], 
+            "name": "WWWTexture"
+        }
+    ], 
+    "groups": [
+        {
+            "path": "group/boot.gip", 
+            "size": 5712737, 
+            "res": [
+                "assets/GPlayConfig.xml",
+                "assets/bin/Data/0000000000000000f000000000000000.obb",
+                "assets/bin/Data/0c5c77b89163b1f4ebbc095ce80b6eed.obb",
+                "assets/bin/Data/6d7b911addfa39a4f83dbd80a4ca3fd9.obb",
+                "assets/bin/Data/bf7547f4b211e8a40bc0b03b7dd2edd9.obb",
+                "assets/bin/Data/cd1f05da52417b74dacf67a98bc95742.obb",
+                "assets/bin/Data/d19f04179d6b4fa449f5fb944b20d341.obb",
+                "assets/bin/Data/e084b0db49223a1428ae8786c7428af1.obb",
+                "assets/bin/Data/globalgamemanagers.assets.obb",
+                "assets/bin/Data/globalgamemanagers.obb",
+                "assets/bin/Data/level0.obb",
+                "assets/bin/Data/PlayerConnectionConfigFile.obb",
+                "assets/bin/Data/settings.xml",
+                "assets/bin/Data/sharedassets0.assets.obb",
+                "assets/bin/Data/splash.png.obb",
+                "assets/bin/Data/unity default resources.obb",
+                "assets/bin/Data/Managed/Assembly-CSharp.dll.mdb.obb",
+                "assets/bin/Data/Managed/Assembly-CSharp.dll.obb",
+                "assets/bin/Data/Managed/GPlayCPSDKLib.dll.obb",
+                "assets/bin/Data/Managed/Mono.Data.Tds.dll.mdb.obb",
+                "assets/bin/Data/Managed/Mono.Data.Tds.dll.obb",
+                "assets/bin/Data/Managed/Mono.Security.dll.mdb.obb",
+                "assets/bin/Data/Managed/Mono.Security.dll.obb",
+                "assets/bin/Data/Managed/mscorlib.dll.mdb.obb",
+                "assets/bin/Data/Managed/mscorlib.dll.obb",
+                "assets/bin/Data/Managed/Newtonsoft.Json.dotnet2.0.dll.obb",
+                "assets/bin/Data/Managed/System.Core.dll.mdb.obb",
+                "assets/bin/Data/Managed/System.Core.dll.obb",
+                "assets/bin/Data/Managed/System.Data.dll.mdb.obb",
+                "assets/bin/Data/Managed/System.Data.dll.obb",
+                "assets/bin/Data/Managed/System.dll.mdb.obb",
+                "assets/bin/Data/Managed/System.dll.obb",
+                "assets/bin/Data/Managed/System.Xml.dll.mdb.obb",
+                "assets/bin/Data/Managed/System.Xml.dll.obb",
+                "assets/bin/Data/Managed/System.Transactions.dll.mdb.obb",
+                "assets/bin/Data/Managed/System.Transactions.dll.obb",
+                "assets/bin/Data/Managed/UnityEngine.dll.mdb.obb",
+                "assets/bin/Data/Managed/UnityEngine.dll.obb",
+                "assets/bin/Data/Managed/UnityEngine.Networking.dll.mdb.obb",
+                "assets/bin/Data/Managed/UnityEngine.Networking.dll.obb",
+                "assets/bin/Data/Managed/UnityEngine.UI.dll.mdb.obb",
+                "assets/bin/Data/Managed/UnityEngine.UI.dll.obb",
+                "assets/bin/Data/Resources/unity_builtin_extra.obb"
+            ], 
+            "name": "boot", 
+            "md5": "291BA61F90A6CF2BEFCCF8E1BB335AF3"
+        },
+        {
+            "path": "group/ResourcesTexture.gip", 
+            "size": 4943, 
+            "res": [
+                "assets/bin/Data/13164ec7a39add24ea24a2602d46ffb7.obb"
+            ], 
+            "name": "ResourcesTexture", 
+            "md5": "88724A957D110FEEFFDDA1BCAC1C2E4F"
+        },
+        {
+            "path": "group/WWWTexture.gip", 
+            "size": 3514, 
+            "res": [
+                "assets/WWWTexture.png"
+            ], 
+            "name": "WWWTexture", 
+            "md5": "F612CF85E774489D90B2510ED9CCCA0A"
+        }
+    ], 
+    "deletes": []
+}
